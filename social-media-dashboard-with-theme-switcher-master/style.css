@@ -113,7 +113,10 @@ body {
 }
 
 .main-card-instagram {
-  border-top: 4px solid hsl(329, 70%, 58%);
+  border-top: 4px solid;
+  border-image-source: linear-gradient(45deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+  border-image-slice: 1;
+  border-radius: 7px;
 }
 
 .main-card-youtube {
