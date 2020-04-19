@@ -15,20 +15,21 @@
   </head>
   <body>
     <header class="header">
-      <h1 class="header_h1">Social Media Dashboard</h1>
-      <p class="header_caption">Total Followers: 23,004</p>
-    </header>
-    <main class="main-content">
+      <div class="header_title">
+        <h1 class="header_h1">Social Media Dashboard</h1>
+        <p class="header_caption">Total Followers: 23,004</p>
+      </div>
       <div class="theme-switcher">
-        <span>Dark Mode</span>
+        <span class="theme-switcher__text">Dark Mode</span>
         <label class="toggle-button-container">
           <input class="toggle-button" type="checkbox" />
           <span class="toggle-button_slider"></span>
         </label>
       </div>
-
-      <section class="main-cards_container">
-        <ul>
+    </header>
+    <main class="main-content">
+      <section>
+        <ul class="main-cards_container">
           <li class="main-card main-card-facebook">
             <div class="main-card_username-container">
               <img
@@ -98,7 +99,7 @@
 
       <section>
         <h2 class="overview-container_header">Overview - Today</h2>
-        <ul>
+        <ul class="overview-cards_container">
           <li class="overview-card">
             <div class="overview-card-header">
               <span>Page Views</span>
