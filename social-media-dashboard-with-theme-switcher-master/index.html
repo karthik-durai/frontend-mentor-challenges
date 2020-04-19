@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Frontend Mentor | Social Media Dashboard with theme switcher</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header_h1">Social Media Dashboard</h1>
+      <p class="header_caption">Total Followers: 23,004</p>
+    </header>
+    <main class="main-content">
+      <div class="theme-switcher">
+        <span>Dark Mode</span>
+        <label class="toggle-button-container">
+          <input class="toggle-button" type="checkbox" />
+          <span class="toggle-button_slider"></span>
+        </label>
+      </div>
+
+      <section class="main-cards__container">
+        <ul>
+          <li class="main-card main-card-facebook">
+            <div class="main-card_username-container">
+              <img
+                src="./images/icon-facebook.svg"
+                class="main-card_username-icon"
+              /><span class="main-card_username">@nathanf</span>
+            </div>
+            <span class="main-card_followers-count">1987</span>
+            <span class="main-card_followers-count-caption">Followers</span>
+            <span class="main-card_followers-today-count-container"
+              ><img src="./images/icon-up.svg" /><span
+                class="main-card_followers-today-count main-card_followers-today-count--up"
+                >12 Today</span
+              ></span
+            >
+          </li>
+          <li class="main-card main-card-twitter">
+            <div class="main-card_username-container">
+              <img
+                src="./images/icon-twitter.svg"
+                class="main-card_username-icon"
+              /><span class="main-card_username">@nathanf</span>
+            </div>
+            <span class="main-card_followers-count">1044</span>
+            <span class="main-card_followers-count-caption">Followers</span>
+            <span class="main-card_followers-today-count-container"
+              ><img src="./images/icon-up.svg" /><span
+                class="main-card_followers-today-count main-card_followers-today-count--up"
+                >99 Today</span
+              ></span
+            >
+          </li>
+          <li class="main-card main-card-instagram">
+            <div class="main-card_username-container">
+              <img
+                src="./images/icon-instagram.svg"
+                class="main-card_username-icon"
+              /><span class="main-card_username">@realnathanf</span>
+            </div>
+            <span class="main-card_followers-count">11k</span>
+            <span class="main-card_followers-count-caption">Followers</span>
+            <span class="main-card_followers-today-count-container"
+              ><img src="./images/icon-up.svg" /><span
+                class="main-card_followers-today-count main-card_followers-today-count--up"
+                >1099 Today</span
+              ></span
+            >
+          </li>
+          <li class="main-card main-card-youtube">
+            <div class="main-card_username-container">
+              <img
+                src="./images/icon-youtube.svg"
+                class="main-card_username-icon"
+              /><span class="main-card_username">Nathan F.</span>
+            </div>
+            <span class="main-card_followers-count">8239</span>
+            <span class="main-card_followers-count-caption">Subscribers</span>
+            <span class="main-card_followers-today-count-container"
+              ><img src="./images/icon-down.svg" /><span
+                class="main-card_followers-today-count main-card_followers-today-count--down"
+                >144 Today</span
+              ></span
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="overview-container_header">Overview - Today</h2>
+        <ul>
+          <li class="overview-card">
+            <div class="overview-card-header">
+              <span>Page Views</span>
+              <img src="./images/icon-facebook.svg" />
+            </div>
+            <div class="overview-card-view-count-container">
+              <span class="overview-card-view-count">87</span
+              ><span
+                class="overview-card-view_count-percent-container overview-card-view_count-percent-container--up"
+                ><img src="./images/icon-up.svg" /><span
+                  class="overview-card-view_count-percent-text"
+                  >3%</span
+                ></span
+              >
+            </div>
+          </li>
+          <li class="overview-card">
+            <div class="overview-card-header">
+              <span>Likes</span>
+              <img src="./images/icon-facebook.svg" />
+            </div>
+            <div class="overview-card-view-count-container">
+              <span class="overview-card-view-count">52</span
+              ><span
+                class="overview-card-view_count-percent-container overview-card-view_count-percent-container--down"
+                ><img src="./images/icon-down.svg" /><span
+                  class="overview-card-view_count-percent-text"
+                  >2%</span
+                ></span
+              >
+            </div>
+          </li>
+          <li class="overview-card">
+            <div class="overview-card-header">
+              <span>Likes</span>
+              <img src="./images/icon-instagram.svg" />
+            </div>
+            <div class="overview-card-view-count-container">
+              <span class="overview-card-view-count">5462</span
+              ><span
+                class="overview-card-view_count-percent-container overview-card-view_count-percent-container--up"
+                ><img src="./images/icon-up.svg" /><span
+                  class="overview-card-view_count-percent-text"
+                  >2257%</span
+                ></span
+              >
+            </div>
+          </li>
+          <li class="overview-card">
+            <div class="overview-card-header">
+              <span>Profile Views</span>
+              <img src="./images/icon-instagram.svg" />
+            </div>
+            <div class="overview-card-view-count-container">
+              <span class="overview-card-view-count">52k</span>
+              <span
+                class="overview-card-view_count-percent-container overview-card-view_count-percent-container--up"
+                ><img src="./images/icon-up.svg" /><span
+                  class="overview-card-view_count-percent-text"
+                  >1375%</span
+                ></span
+              >
+            </div>
+          </li>
+          <li class="overview-card">
+            <div class="overview-card-header">
+              <span>Retweets</span>
+              <img src="./images/icon-twitter.svg" />
+            </div>
+            <div class="overview-card-view-count-container">
+              <span class="overview-card-view-count">117</span>
+              <span
+                class="overview-card-view_count-percent-container overview-card-view_count-percent-container--up"
+                ><img src="./images/icon-up.svg" /><span
+                  class="overview-card-view_count-percent-text"
+                  >303%</span
+                ></span
+              >
+            </div>
+          </li>
+          <li class="overview-card">
+            <div class="overview-card-header">
+              <span>Likes</span> <img src="./images/icon-twitter.svg" />
+            </div>
+            <div class="overview-card-view-count-container">
+              <span class="overview-card-view-count">507</span>
+              <span
+                class="overview-card-view_count-percent-container overview-card-view_count-percent-container--up"
+                ><img src="./images/icon-up.svg" /><span
+                  class="overview-card-view_count-percent-text"
+                  >553%</span
+                ></span
+              >
+            </div>
+          </li>
+          <li class="overview-card">
+            <div class="overview-card-header">
+              <span>Likes</span>
+              <img src="./images/icon-youtube.svg" />
+            </div>
+            <div class="overview-card-view-count-container">
+              <span class="overview-card-view-count">107</span>
+              <span
+                class="overview-card-view_count-percent-container overview-card-view_count-percent-container--down"
+                ><img src="./images/icon-down.svg" /><span
+                  class="overview-card-view_count-percent-text"
+                  >19%</span
+                ></span
+              >
+            </div>
+          </li>
+          <li class="overview-card">
+            <div class="overview-card-header">
+              <span>Total Views</span>
+              <img src="./images/icon-youtube.svg" />
+            </div>
+            <div class="overview-card-view-count-container">
+              <span class="overview-card-view-count">1407</span>
+              <span
+                class="overview-card-view_count-percent-container overview-card-view_count-percent-container--down"
+                ><img src="./images/icon-down.svg" /><span
+                  class="overview-card-view_count-percent-text"
+                  >12%</span
+                ></span
+              >
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/KarthikSiddarth/" target="_blank"
+        >Karthik Siddarth Durai</a
+      >.
+    </footer>
+  </body>
+</html>
