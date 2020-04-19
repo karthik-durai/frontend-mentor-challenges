@@ -268,8 +268,8 @@ body {
   transform: translateX(26px);
 }
 
-@media screen and (max-width: 960px) {
-  .main-cards_container {
+@media screen and (max-width: 460px) {
+  .main-cards_container, .overview-cards_container {
     flex-direction: column;
     align-items: center;
   }
