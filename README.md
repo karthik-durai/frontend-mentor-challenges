@@ -1,0 +1,1 @@
+1. Social media dashboard with theme switcher ([demo](https://karthiksiddarth.github.io/frontend-mentor-challenges/social-media-dashboard-with-theme-switcher/index.html) | [source-code](https://github.com/KarthikSiddarth/frontend-mentor-challenges/tree/master/social-media-dashboard-with-theme-switcher))
