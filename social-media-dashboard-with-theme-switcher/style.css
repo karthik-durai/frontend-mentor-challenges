@@ -73,6 +73,7 @@ body {
   border-radius: 7px;
   cursor: pointer;
   width: 300px;
+  margin-right: 10px;
 }
 
 .main-card:hover,
