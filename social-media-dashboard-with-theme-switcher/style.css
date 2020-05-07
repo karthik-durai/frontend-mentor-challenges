@@ -26,10 +26,8 @@ body {
 }
 
 .overview-cards_container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .header {
